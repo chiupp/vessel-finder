@@ -28,13 +28,15 @@ https://github.com/chiupp/vessel-finder/assets/172878912/72c6b48e-d683-4346-82d9
 - WebSockets
 
 ## Project Structure
-.
-├── app.py
+
+```plaintext
+├── app.py                 # Main application file
 ├── templates
-│ └── index.html
+│   └── index.html         # HTML file for the web-based map interface
 ├── static
-│ └── custom.min.js
-└── README.md
+│   └── custom.min.js      # JavaScript file for handling map interactions
+└── README.md              # Project documentation
+```
 
 ### `app.py`
 
@@ -47,37 +49,6 @@ HTML file for the web-based map interface.
 ### `static/custom.min.js`
 
 JavaScript file for handling map interactions.
-
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/real-time-ais-radar.git
-    cd real-time-ais-radar
-    ```
-
-2. Set up a virtual environment and install dependencies:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    pip install -r requirements.txt
-    ```
-
-3. Install ChromeDriver for Selenium (make sure it matches your Chrome version):
-    - [Download ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-
-4. Ensure that you have Prometheus installed and running:
-    - [Prometheus Installation Guide](https://prometheus.io/docs/prometheus/latest/installation/)
-
-## Usage
-1. Connect the AIS device, make sure the serial port 
-
-2. Start the Flask web server:
-    ```sh
-    python app.py
-    ```
-
-3. Open  web browser and navigate to `http://localhost:5000` to view the real-time map.
 
 ## Acknowledgements
 
