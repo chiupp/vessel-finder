@@ -38,18 +38,6 @@ https://github.com/chiupp/vessel-finder/assets/172878912/72c6b48e-d683-4346-82d9
 └── README.md              # Project documentation
 ```
 
-### `app.py`
-
-Main application file that handles data collection, processing, and web server functionality.
-
-### `templates/index.html`
-
-HTML file for the web-based map interface.
-
-### `static/custom.min.js`
-
-JavaScript file for handling map interactions.
-
 ## Acknowledgements
 
 - [Folium](https://python-visualization.github.io/folium/)
