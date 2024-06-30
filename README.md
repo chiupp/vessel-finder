@@ -28,6 +28,7 @@ https://github.com/chiupp/vessel-finder/assets/172878912/72c6b48e-d683-4346-82d9
 - WebSockets
 
 ## Project Structure
+
 ├── app.py
 ├── templates
 │ └── index.html
