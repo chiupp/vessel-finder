@@ -1,4 +1,4 @@
-# Real-time AIS and Radar Data Visualization
+# Real-time AIS Data Visualization
 
 This project visualizes real-time AIS data on a web-based map using Flask, Folium, and Bokeh.
 
